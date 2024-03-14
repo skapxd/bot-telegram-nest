@@ -30,6 +30,7 @@
     "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/jwt": "^9.0.0",
+    "@nestjs/mongoose": "^10.0.4",
     "@nestjs/platform-express": "^9.0.0",
     "@nestjs/serve-static": "^4.0.1",
     "@nestjs/swagger": "^7.3.0",
@@ -38,9 +39,12 @@
     "class-validator": "^0.14.1",
     "cors": "^2.8.5",
     "husky": "^9.0.11",
+    "input": "^1.0.1",
+    "mongoose": "^8.2.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "telegram": "^2.20.2"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",

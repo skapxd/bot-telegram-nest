@@ -27,8 +27,8 @@ export function mainConfig(app: INestApplication) {
   );
 
   const config = new DocumentBuilder()
-    .setTitle('NestJS example')
-    .setDescription('The NestJS API description')
+    .setTitle('Telegram API')
+    .setDescription('Send messages form account exist')
     .setVersion('1.0')
     .addBearerAuth()
     .addSecurityRequirements('bearer')

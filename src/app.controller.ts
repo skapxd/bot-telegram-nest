@@ -7,11 +7,6 @@ import { AuthorizationGuard } from './authorization/authorization.guard';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
-  getMessages() {
-    return this.appService.getMessages();
-  }
-
   @Post()
   @UseGuards(AuthorizationGuard)
   sendMessage(@Body() dto: SendMessageDTO) {
